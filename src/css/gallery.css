@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 1128px;
+    padding: 24px 0 24px 0;
+    margin: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+}
+
+.gallery-item {
+    flex-basis: calc((100% / 3) - 24px);
+}
+
+.gallery-link {
+    display: block;
+    text-decoration: none;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
